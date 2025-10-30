@@ -1,0 +1,8 @@
+asgiref==3.10.0
+celery==5.5.3
+Django==5.2.7
+djangorestframework==3.16.1
+flower==2.0.1
+psycopg2-binary==2.9.11
+redis==7.0.1
+uvicorn==0.38.0
