@@ -30,7 +30,9 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'some-crazy-secret')
 DEBUG = os.environ.get("DEBUG", "True").lower() in ("true", "1", "yes")
 
 ALLOWED_HOSTS = []
-
+HOST = os.environ.get('HOST')
+if HOST:
+    ALLOWED_HOSTS.append('deployment-training-stuff.onrender.com')
 
 # Application definition
 
